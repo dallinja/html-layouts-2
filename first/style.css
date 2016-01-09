@@ -1,0 +1,61 @@
+body {
+	margin: 0;
+}
+.container {
+	margin: 0 auto;
+	padding: 30px 25px;
+	width: 1020px;
+}
+.red {
+	background-color: #D0021B;
+}
+.blue {
+	background-color: #4A90E2;
+}
+.black {
+	background-color: #4A4A4A;
+}
+.row1, .row3, .row4 {
+	display: flex;
+	justify-content: space-between;
+}
+.box {
+	width: 32%;
+	height: 150px;
+}
+p {
+	font-family: arial;
+}
+.row3 {
+	height: 300px;
+}
+.row4 {
+	height: 150px;
+	margin-top: 30px;
+}
+.sidebar, .content {
+	height: 100%;
+	float: left;
+}
+.sidebar {
+	width: 33.33%
+}
+.content {
+	width: 66.67%
+}
+.col1 {
+	height: 100%;
+	width: 65%;
+}
+.col2 {
+	height: 100%;
+	width: 5%;
+}
+.col3 {
+	height: 100%;
+	width: 25%;
+}
+.col4 {
+	height: 100%;
+	width: 5%;
+}
