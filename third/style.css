@@ -1,7 +1,6 @@
 body {
 	margin: 0;
 	font-family: Arial;
-	background-color: #D8D8D8;
 }
 p {
 }
@@ -15,8 +14,8 @@ button {
 .container {
 	margin: 0 auto;
 	padding: 30px 40px;
-	max-width: 1020px;
-	background-color: #D8D8D8;
+	width: 1020px;
+	/*background-color: #D8D8D8;*/
 }
 .red {
 	background-color: #D0021B;
@@ -30,28 +29,39 @@ button {
 .content {
 	background-color: #fff;
 	padding: 30px;
-	margin-bottom: 30px;
+	overflow: auto;
+}
+.col {
+	width: 47.5%;
+	float: left;
+}
+.col:first-child {
+	margin-right: 5%;
 }
 .pic {
-	display: flex;
 	height: 300px;
-	justify-content: center;
-	align-items: center;
+	width: 100%;
+	background-color: #D8D8D8;
 }
 .pic p {
 	color: #fff;
 	font-size: 40px;
 
 }
-.footer {
+.header {
 	overflow: auto;
 }
-.footer-nav {
-	max-width: 1020px;
+.header-nav {
+	width: 1020px;
 	margin: 0 auto;
 }
+.footer {
+	height: 100px;
+	float: clear;
+}
 ul {
-	float: right;
+	padding-left: 0;
+	margin: 0;
 }
 ul li {
 	display: inline-block;

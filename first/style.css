@@ -4,7 +4,7 @@ body {
 .container {
 	margin: 0 auto;
 	padding: 30px 25px;
-	width: 1020px;
+	max-width: 1020px;
 }
 .red {
 	background-color: #D0021B;
